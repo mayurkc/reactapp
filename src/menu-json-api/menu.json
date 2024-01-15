@@ -1,0 +1,63 @@
+[
+    {
+        "label":"Home",
+        "Link":"/",
+        "isButton":false,
+        "isDropdown":false
+
+    },
+    {
+        "label":"Learn",
+        "Link":"/learn",
+        "isButton":false,
+        "isDropdown":false
+    },
+    {
+        "label":"Reference",
+        "Link":"/reference",
+        "isButton":false,
+        "isDropdown":false
+
+    },
+    {
+        "label":"Community",
+        "Link":"/community",
+        "isButton":false,
+        "isDropdown":true,
+        "dropDownMenu":[
+            {"label":"OurCommunity",
+            "Link":"/ourcommunity"
+            },
+            {
+                "label":"MyCommunity",
+                "Link":"/mycommunity"
+            }]
+
+    },
+    {
+        "label":"Blog",
+        "Link":"/blog",
+        "isDropdown":true,
+        "isButton":false,
+
+        "dropDownMenu":[
+            {"label":"Git",
+            "Link":"/git"
+            },
+            {
+                "label":"Github",
+                "Link":"/github"
+            }
+        ]
+
+    },
+    {
+        "label":"Resgister",
+        "Link":"/register",
+        "isDropdown":false,
+        "isButton":true
+
+
+    }
+
+]
